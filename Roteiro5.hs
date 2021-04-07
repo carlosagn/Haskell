@@ -39,17 +39,3 @@ produtorio (h:tail) = h * produtorio tail
 tamanho :: [tipo] -> Int
 tamanho [] = 0
 tamanho (h:tail) = 1 + tamanho tail
-
-
-
-
-
-
-
-
-
-
-
-
-
-
