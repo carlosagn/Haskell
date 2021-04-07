@@ -41,12 +41,3 @@ bissextos xs = [ x | x <- xs, bissexto x == True ]
 
 sublistas :: [[Int]] -> [Int]
 sublistas [xs] = [ x | x <- xs ]
-
-
-
-
-
-
-
-
-
